@@ -7,14 +7,17 @@
     }
 
 #monitor{
+    margin: 0px;
     background-image: url(../img/monitor.jpg);
-    background-size: cover;
     background-repeat: no-repeat;
+    color: #FFFF;
+
+
 }
 #graph{
     background-image: url(../img/graph.jpg);
-    background-size: 500px 500px;
     background-repeat: no-repeat;
+    color: #FFFF;
 }
 .evidenziatore{
     background-color: #ffee00;
