@@ -1,3 +1,38 @@
 #testa{
-    background-image: url(../pattern.png)
+    background-image: url(../img/pattern.png);
+    background-color:#4EA0FF;
+
+}
+#logo{
+    }
+
+#monitor{
+    background-image: url(../img/monitor.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#graph{
+    background-image: url(../img/graph.jpg);
+    background-size: 500px 500px;
+    background-repeat: no-repeat;
+}
+.evidenziatore{
+    background-color: #ffee00;
+}
+
+.tab{
+    background-color: #20a9e5;
+    color: white;
+}
+.tab1{
+    background-color: #b1e5f2;
+}
+.prima{
+    width: 23%;
+}
+.seconda{
+    width: 23%;
+}
+.terza{
+    width: 49%;
 }
