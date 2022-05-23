@@ -1,28 +1,21 @@
+/* inizito header */
 #testa{
     background-image: url(../img/pattern.png);
     background-color:#4EA0FF;
 
 }
-#logo{
-    }
-
-#monitor{
-    margin: 0px;
-    background-image: url(../img/monitor.jpg);
-    background-repeat: no-repeat;
-    color: #FFFF;
-
-
+.logo{
+    width: 200px;
+    height: auto;
+    margin-top: 50px;
 }
-#graph{
-    background-image: url(../img/graph.jpg);
-    background-repeat: no-repeat;
-    color: #FFFF;
-}
+
+
 .evidenziatore{
     background-color: #ffee00;
 }
 
+/* inizio tabella */
 .tab{
     background-color: #20a9e5;
     color: white;
@@ -38,4 +31,18 @@
 }
 .terza{
     width: 49%;
+}
+/* inzinio footer */
+#monitor{
+    margin: 0px;
+    background-image: url(../img/monitor.jpg);
+    background-repeat: no-repeat;
+    color: #FFFF;
+
+
+}
+#graph{
+    background-image: url(../img/graph.jpg);
+    background-repeat: no-repeat;
+    color: #FFFF;
 }
