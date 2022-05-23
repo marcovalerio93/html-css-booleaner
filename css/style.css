@@ -9,7 +9,7 @@
     height: auto;
     margin-top: 50px;
 }
-
+/* fine header */
 
 .evidenziatore{
     background-color: #ffee00;
@@ -33,16 +33,19 @@
     width: 49%;
 }
 /* inzinio footer */
-#monitor{
-    margin: 0px;
-    background-image: url(../img/monitor.jpg);
+#monitor{   
+    width: 300px;
+    height: 250px;
     background-repeat: no-repeat;
     color: #FFFF;
-
-
+    background-image: url(../img/monitor.jpg);
+    font-weight: bold;
 }
 #graph{
-    background-image: url(../img/graph.jpg);
+    width: 300px;
+    height: 250px;
     background-repeat: no-repeat;
-    color: #FFFF;
+    color: #FFFFFF;
+    background-image: url(../img/graph.jpg);
+    font-weight: bold;
 }
