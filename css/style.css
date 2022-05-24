@@ -1,51 +1,109 @@
-/* inizito header */
-#testa{
+/* reset */
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* inizito header sfondo */
+header{
     background-image: url(../img/pattern.png);
     background-color:#4EA0FF;
+    height: 100px;
+    background-size: 30%;
 
 }
-.logo{
-    width: 200px;
-    height: auto;
+header .logo{
+    height: 40px;
     margin-top: 50px;
+    margin-left: 5px;
 }
 /* fine header */
 
-.evidenziatore{
-    background-color: #ffee00;
+.photo{
+    margin-top: 20px;
+}
+
+main, footer{
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+
+h1{ font-size: 300%;}
+
+.author{
+    font-size: 13px;
+    color: #6c6c6c;
+}
+
+.author-name{
+    color: #4EA0FF;
+}
+
+.date{
+    font-size: 10px;
+    color: #6c6c6c;
+}
+
+.caption{
+    font-size: 11px;
+}
+p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+ul{
+    padding-left: 20px;
+}
+table{
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 /* inizio tabella */
+table{
+    border-spacing: 0px;
+}
+th{
+    text-align:left;
+}
 .tab{
     background-color: #20a9e5;
     color: white;
 }
-.tab1{
+.tab-2n{
     background-color: #b1e5f2;
 }
 .prima{
-    width: 23%;
+    width: 25%;
 }
 .seconda{
-    width: 23%;
+    width: 25%;
 }
 .terza{
-    width: 49%;
+    width: 50%;
 }
 /* inzinio footer */
-#monitor{   
+footer h3{
+    color: #6c6c6c;
+}
+
+.img h3{
+    padding:10px;
+    color: #FFFFFF;
+}
+
+.img{
     width: 300px;
     height: 250px;
-    background-repeat: no-repeat;
-    color: #FFFF;
+    margin-top: 5px;
+}
+
+#monitor{   
     background-image: url(../img/monitor.jpg);
-    font-weight: bold;
 }
 #graph{
-    width: 300px;
-    height: 250px;
-    background-repeat: no-repeat;
-    color: #FFFFFF;
-    background-image: url(../img/graph.jpg);
-    font-weight: bold;
+        background-image: url(../img/graph.jpg);
 }
