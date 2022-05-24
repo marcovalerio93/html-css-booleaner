@@ -107,3 +107,10 @@ footer h3{
 #graph{
         background-image: url(../img/graph.jpg);
 }
+
+/* parte bonus */
+
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
